@@ -31,7 +31,7 @@ public class BookController {
     }
 
     @PutMapping
-    public Book updatePost( @RequestBody Book updatedBook) {
+    public Book updateBook( @RequestBody Book updatedBook) {
         return bookService.edit(updatedBook);
     }
 

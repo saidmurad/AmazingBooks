@@ -30,7 +30,7 @@ public class AuthorController {
     }
 
     @PutMapping
-    public Author updatePost( @RequestBody Author updatedAuthor) {
+    public Author updateAuthor( @RequestBody Author updatedAuthor) {
         return authorService.edit(updatedAuthor);
     }
 
